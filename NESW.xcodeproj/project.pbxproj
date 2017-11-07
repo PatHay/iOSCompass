@@ -14,6 +14,7 @@
 		870972881FB2150A006B0373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870972861FB2150A006B0373 /* LaunchScreen.storyboard */; };
 		870972931FB2150A006B0373 /* NESWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870972921FB2150A006B0373 /* NESWTests.swift */; };
 		8709729E1FB2150A006B0373 /* NESWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709729D1FB2150A006B0373 /* NESWUITests.swift */; };
+		870972AC1FB21E1E006B0373 /* DirectionalDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870972AB1FB21E1E006B0373 /* DirectionalDestinationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		870972991FB2150A006B0373 /* NESWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8709729D1FB2150A006B0373 /* NESWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESWUITests.swift; sourceTree = "<group>"; };
 		8709729F1FB2150A006B0373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870972AB1FB21E1E006B0373 /* DirectionalDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionalDestinationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8709727C1FB2150A006B0373 /* NESW */ = {
 			isa = PBXGroup;
 			children = (
+				870972AB1FB21E1E006B0373 /* DirectionalDestinationViewController.swift */,
 				8709727D1FB2150A006B0373 /* AppDelegate.swift */,
 				8709727F1FB2150A006B0373 /* ViewController.swift */,
 				870972811FB2150A006B0373 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				870972801FB2150A006B0373 /* ViewController.swift in Sources */,
+				870972AC1FB21E1E006B0373 /* DirectionalDestinationViewController.swift in Sources */,
 				8709727E1FB2150A006B0373 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
